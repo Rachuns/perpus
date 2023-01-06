@@ -51,13 +51,13 @@
                         <!-- Logo icon -->
                         <b class="logo-icon">
                             <!-- Dark Logo icon -->
-                            <img src="plugins/images/logo-icon.png" alt="homepage" />
+                            <img src="{{asset('Assets/Ample/plugins/images/logo-icon.png')}}" alt="homepage" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span class="logo-text">
                             <!-- dark Logo text -->
-                            <img src="plugins/images/logo-text.png" alt="homepage" />
+                            <img src="{{asset('Assets/Ample/plugins/images/logo-text.png')}}" alt="homepage" />
                         </span>
                     </a>
                     <!-- ============================================================== -->
@@ -95,7 +95,7 @@
                         <!-- ============================================================== -->
                         <li>
                             <a class="profile-pic" href="#">
-                                <img src="plugins/images/users/varun.jpg" alt="user-img" width="36"
+                                <img src="{{asset('Assets/Ample/plugins/images/users/varun.jpg')}}" alt="user-img" width="36"
                                     class="img-circle"><span class="text-white font-medium">Steave</span></a>
                         </li>
                         <!-- ============================================================== -->
@@ -129,7 +129,7 @@
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.html"
                                 aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu">Profile</span>
+                                <span class="hide-menu">Data Pengunjung</span>
                             </a>
                         </li>
                         <li class="sidebar-item">

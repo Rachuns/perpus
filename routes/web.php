@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('register');
+    return view('layout');
 });
 
 Route::resource('user', App\Http\Controllers\UserController::class);
