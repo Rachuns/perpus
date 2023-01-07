@@ -21,6 +21,11 @@
     <link rel="stylesheet" href="{{asset('Assets/Ample/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css')}}">
     <!-- Custom CSS -->
     <link href="{{asset('Assets/Ample/css/style.min.css')}}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{asset('Assets/fontawesome-free-6.2.1-web')}}">
+    <link href="{{asset('Assets/fontawesome-free-6.2.1-web/css/fontawesome.css')}}" rel="stylesheet">
+    <link href="{{('Assets/fontawesome-free-6.2.1-web/css/brands.css')}}" rel="stylesheet">
+    <link href="{{('Assets/fontawesome-free-6.2.1-web/css/solid.css')}}" rel="stylesheet">
 </head>
 
 <body>
@@ -580,6 +585,7 @@
     <script src="{{asset('Assets/Ample/plugins/bower_components/chartist/dist/chartist.min.js')}}"></script>
     <script src="{{asset('Assets/Ample/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js')}}"></script>
     <script src="{{asset('Assets/Ample/js/pages/dashboards/dashboard1.js')}}"></script>
+    <script src="https://kit.fontawesome.com/ae83f71986.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
